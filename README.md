@@ -15,12 +15,12 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الثالثه
 
-git clone https://github.com/devaloosh/VIPTEAM.git
+git clone https://github.com/devaloosh/VIP_TEAM.git
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الرابعه
 
-cd VIPTEAM
+cd VIP_TEAM
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الخامسه
