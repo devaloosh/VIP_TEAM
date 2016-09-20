@@ -10,30 +10,35 @@ sudo apt-get update
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الثانيه
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y —force-yes
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev make autoconf unzip git redis-server g++ libjansson-dev libpython-dev expat libexpat1-dev
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الثالثه
 
-git clone https://github.com/devaloosh/VIP_TEAM.git
+cd $HOME
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الرابعه
 
-cd VIP_TEAM
+git clone https://github.com/devaloosh/VIP_TEAM.git
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة الخامسه
 
-chmod +x launch.sh
+cd VIP_TEAM
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة السادسه
 
-./launch.sh install
+chmod +x launch.sh
 
 ➖🔹➖🔸➖🔶➖🔷➖
 #الخطوة السابعه
+
+./launch.sh install
+
+➖🔹➖🔸➖🔶➖🔷➖
+#الخطوة الثامنه
 
 ./launch.sh
 
